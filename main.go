@@ -70,8 +70,6 @@ func main() {
 				log.Fatal(err)
 			}
 
-			log.Printf("event : %+v", e)
-
 			if err := projector.ProjectEvent(ctx, e); err != nil {
 				log.Fatalf("err on projecting event : %v", err)
 			}
