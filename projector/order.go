@@ -29,7 +29,7 @@ func ProjectEvent(ctx context.Context, event eventsourcing.Event) error {
 			}
 			return nil
 		}
-		
+
 		return fmt.Errorf("could not get order from interface")
 
 	case eventsourcing.AddOrderLine:
