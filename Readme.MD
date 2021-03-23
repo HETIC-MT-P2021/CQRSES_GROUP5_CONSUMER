@@ -1,0 +1,27 @@
+![License](https://img.shields.io/github/license/HETIC-MT-P2021/CQRSES_GROUP5_CONSUMER)
+![golang](https://img.shields.io/github/languages/top/HETIC-MT-P2021/CQRSES_GROUP5_CONSUMER)
+![golang-version](https://img.shields.io/github/go-mod/go-version/HETIC-MT-P2021/CQRSES_GROUP5_CONSUMER)
+![commit](https://img.shields.io/github/last-commit/HETIC-MT-P2021/CQRSES_GROUP5_CONSUMER)
+![build-CI](https://img.shields.io/github/workflow/status/HETIC-MT-P2021/CQRSES_GROUP5_CONSUMER/CI)
+
+## Authors
+
+[Athénais Dussordet](https://github.com/Araknyfe)
+
+[Alexandre Lellouche](https://github.com/AlexandreLch)
+
+[Thomas Raineau](https://github.com/Traineau)
+
+[Corto Dufour](https://github.com/SteakBarbare)
+
+## Usage
+
+```git config core.hooksPath .githooks```
+> Configure GitHooks
+
+``` docker-compose up --build```
+> Run the project
+
+## Main repo
+
+https://github.com/HETIC-MT-P2021/CQRSES_GROUP5
