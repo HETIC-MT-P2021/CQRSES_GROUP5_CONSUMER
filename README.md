@@ -17,7 +17,7 @@ This project is built on a shared docker network with the main project.
 
 > Configure GitHooks
 
-`cp docker-compose.yaml.dist docker-compose.yaml`
+`cp docker-compose.yml.dist docker-compose.yml`
 
 > Docker configuration override, don't forget to add the Token, SQL and RBMQ variables
 
