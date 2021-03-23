@@ -49,4 +49,4 @@ The different types are:
 
 ## License
 
-Please refer to the **[license.md](https://github.com/HETIC-MT-P2021/CQRSES_GROUP5/blob/main/LICENSE.md)** file. 
+Please refer to the **[license.md](https://github.com/HETIC-MT-P2021/CQRSES_GROUP5_CONSUMER/blob/main/LICENSE.md)** file. 
