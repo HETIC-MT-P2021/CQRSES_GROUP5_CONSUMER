@@ -1,0 +1,32 @@
+version: "3.7"
+services:
+  # Api Service
+  consumer:
+    build:
+      context: ./
+      dockerfile: ./docker/build/golang/Dockerfile
+    environment:
+      API_PORT: "8081"
+      MYSQL_USER: goqrs
+      MYSQL_PASSWORD: goqrs
+      MYSQL_DATABASE: image_goqrs
+      DB_HOST: tcp(db:3306)
+      RABBITMQ_HOST: rabbitmq
+      RABBITMQ_ERLANG_COOKIE: rabbitmq_cookie
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+      RABBITMQ_PORT: 5672
+      ES_URL: "http://es:9200"
+    ports:
+      - "8081:8081"
+    volumes:
+      - ./:/go:rw
+    networks:
+      - backend
+      
+networks:
+  backend:
+    driver: "bridge"
+    external:
+      name: gocqrs-network
+
